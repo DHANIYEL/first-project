@@ -69,11 +69,17 @@ body {
   line-height: 1;
   color: #555;
 }
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
 .hero {
   max-width: 130rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
 }
 .heading-primary {
   font-size: 5.2rem;
