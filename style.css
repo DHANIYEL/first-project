@@ -95,7 +95,6 @@ body {
   margin-bottom: 4.8rem;
 }
 .btn {
-  background-color: #e67e22;
   font-size: 2rem;
   display: inline-block;
   padding: 1.6rem 3.2rem;
@@ -103,9 +102,16 @@ body {
   color: #fff;
   border-radius: 10px;
 }
-.btn-wh {
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
   display: inline-block;
+  margin-right: 15px;
+}
+.btn--outline:link,
+.btn--outline:visited {
   background-color: #fff;
+  color: #555;
 }
 .hero-img {
   width: 100%;
