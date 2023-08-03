@@ -117,11 +117,15 @@ body {
 .btn--outline:visited {
   background-color: #fff;
   color: #555;
+  transition: all 0.5s ease-out;
 }
 .btn--outline:hover,
 .btn--outline:active {
   background-color: #fdf2e9;
-  border: 3px solid #fff;
+  /* border: 3px solid #fff; */
+  transform: scale(1.1);
+  color: #222831;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
 }
 .hero-img {
   width: 100%;
