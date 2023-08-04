@@ -64,7 +64,7 @@ html {
   font-size: 10px;
 }
 body {
-  font-family: sans-serif;
+  font-family: "rubik", sans-serif;
   font-weight: 400;
   line-height: 1;
   color: #555;
@@ -108,6 +108,7 @@ body {
   background-color: #e67e22;
   display: inline-block;
   margin-right: 15px;
+  transition: all 0.5s ease-out;
 }
 .btn--full:hover,
 .btn--full:active {
@@ -117,7 +118,7 @@ body {
 .btn--outline:visited {
   background-color: #fff;
   color: #555;
-  /* transition: all 0.5s ease-out; */
+  transition: all 0.5s ease-out;
 }
 .btn--outline:hover,
 .btn--outline:active {
