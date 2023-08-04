@@ -69,6 +69,14 @@ body {
   line-height: 1;
   color: #555;
 }
+.header {
+  background-color: #fdf2e9;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  height: 2.2rem;
+}
 .section-hero {
   background-color: #fdf2e9;
   padding: 9.6rem 0;
