@@ -244,3 +244,12 @@ body {
 .heading-tertiary {
   font-size: 2.4rem;
 }
+.step-discribtion {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
