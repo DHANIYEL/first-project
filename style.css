@@ -384,14 +384,14 @@ body {
 .heading-tertiary {
   font-size: 3rem;
   line-height: 1.2;
-  margin-bottom: 3.2rem;
+  margin-bottom: 3.8rem;
   margin-top: 0;
 }
 .list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 2rem;
 }
 .list li {
   font-size: 1.8rem;
