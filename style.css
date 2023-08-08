@@ -427,5 +427,5 @@ body {
 .link:hover,
 .link:active {
   color: #cf711f;
-  border-bottom: none;
+  border-bottom: 1px solid transparent;
 }
