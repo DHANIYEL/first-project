@@ -129,9 +129,11 @@ body {
   margin-bottom: 4.8rem;
 }
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.heading-tertiary {
   line-height: 1.05;
   color: #333;
+  font-weight: 700;
   letter-spacing: -0.5px;
 }
 .heading-primary {
@@ -383,6 +385,7 @@ body {
   font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
+  margin-top: 0;
 }
 .list {
   list-style: none;
@@ -395,4 +398,10 @@ body {
   display: flex;
   gap: 1.6rem;
   align-items: center;
+  line-height: 1.2;
+}
+.icon-img {
+  height: 3rem;
+  width: 3rem;
+  color: #e67e22;
 }
