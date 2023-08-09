@@ -440,6 +440,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4.8rem;
+  align-items: center;
 }
 .testimonial img {
   width: 6.4rem;
@@ -452,4 +453,6 @@ body {
   margin-bottom: 1.6rem;
 }
 .testimonial-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
 }
