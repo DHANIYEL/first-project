@@ -454,10 +454,6 @@ body {
   gap: 1.6rem;
   padding: 1.6rem;
 }
-.gallery-item img {
-  display: block;
-  width: 100%;
-}
 .section-testimonial {
   align-items: center;
   background-color: #fdf2e9;
@@ -466,4 +462,16 @@ body {
 }
 .testiminial-container {
   padding: 9.6rem;
+}
+.gallery-item {
+  overflow: hidden;
+}
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+.gallery-item img:hover {
+  overflow: hidden;
+  transform: scale(1.1);
 }
