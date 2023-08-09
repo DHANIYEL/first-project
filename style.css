@@ -317,11 +317,6 @@ body {
   padding: 9.6rem 0;
 }
 
-.heading-secondary {
-  font-size: 3.6rem;
-  line-height: 1.2;
-  margin-bottom: 9.6rem;
-}
 .meals {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
@@ -433,9 +428,7 @@ body {
   color: #cf711f;
   border-bottom: 1px solid transparent;
 }
-.section-testimonial {
-  padding: 9.6rem 0;
-}
+
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -455,4 +448,19 @@ body {
 .testimonial-name {
   font-size: 1.6rem;
   color: #6f6f6f;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+.gallery-item img {
+  display: block;
+  width: 100%;
+}
+.section-testimonial {
+  background-color: #fdf2e9;
+}
+.testiminial-container {
+  padding: 9.6rem;
 }
