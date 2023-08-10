@@ -475,3 +475,6 @@ body {
   overflow: hidden;
   transform: scale(1.1);
 }
+.section-pricing {
+  padding: 9.6rem 0;
+}
