@@ -528,13 +528,24 @@ body {
 .pricing--complete::after {
   content: "best value";
   position: absolute;
-  top: 5%;
-  right: -7%;
+  top: 6%;
+  right: -18%;
   background-color: #ffd43b;
   font-weight: 700;
   font-size: 1.4rem;
   text-transform: uppercase;
   color: #333;
-  padding: 0.8rem 3.2rem;
+  padding: 0.8rem 8rem;
   transform: rotate(45deg);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+.bottom-list-margin {
+  margin-bottom: 9.6rem;
 }
