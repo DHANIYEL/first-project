@@ -494,6 +494,7 @@ body {
   font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
 }
 .plan-price {
   font-size: 6.2rem;
@@ -518,4 +519,19 @@ body {
 .justify-starter {
   justify-self: end;
   border: 2px solid #fdf2e9;
+  background-color: #fff;
+}
+.pricing--complete {
+  position: relative;
+}
+.pricing--complete::after {
+  content: "best value";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffd43b;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  transform: rotate(45deg);
 }
