@@ -686,14 +686,16 @@ body {
   height: 2.4rem;
   width: 2.4rem;
 }
-.footer-links a:visited,
-.footer-links a:link {
+.footer-links {
   text-decoration: none;
   color: #767676;
   font-size: 1.6rem;
+}
+.footer-links:visited,
+.footer-links:link {
   transition: all 0.3s;
 }
-.footer-links a:hover {
+.footer-links:hover {
   color: #555;
 }
 .copyright {
@@ -721,7 +723,7 @@ body {
   flex-direction: column;
   gap: 2.4rem;
 }
-.footer-nav a:link,
+/* .footer-nav a:link,
 .footer-nav a:visited {
   text-decoration: none;
   font-size: 1.6rem;
@@ -730,4 +732,4 @@ body {
 }
 .footer-nav a:hover {
   color: #555;
-}
+} */
