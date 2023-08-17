@@ -660,3 +660,6 @@ body {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.516);
 }
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
