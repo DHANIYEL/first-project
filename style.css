@@ -325,7 +325,7 @@ body {
 }
 .meals:hover {
   transform: translateY(-1.2rem);
-  x-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.09);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.09);
 }
 .meals-img {
   width: 100%;
@@ -582,8 +582,6 @@ body {
   height: 50rem;
   overflow: hidden;
 }
-.cta-text-box {
-}
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
@@ -620,6 +618,9 @@ body {
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
+.cta-form input::placeholder {
+  color: #aaa;
+}
 .cta-form input,
 .cta-form select {
   width: 100%;
@@ -633,12 +634,13 @@ body {
 }
 .cta-form button {
   border: none;
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
-.btn-form {
+.btn--form {
   background-color: #45260a;
   color: #fdf2e9;
   padding: 1.2rem;
