@@ -569,7 +569,7 @@ body {
   line-height: 1.8;
 }
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 12.8rem;
 }
 .cta {
   display: grid;
@@ -671,7 +671,8 @@ body {
   flex-direction: column;
 }
 .footer {
-  padding: 9.6rem 0;
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
 }
 .footer-logo {
   display: block;
@@ -737,4 +738,7 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+}
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
