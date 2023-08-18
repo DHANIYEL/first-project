@@ -733,3 +733,8 @@ body {
 .footer-nav a:hover {
   color: #555;
 } */
+.grid-foot {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
