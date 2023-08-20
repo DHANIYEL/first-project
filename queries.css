@@ -97,6 +97,15 @@
   }
 }
 
+/* MOBILE NAV MENU */
+/* 736px */
+
+@media (max-width: 46em) {
+  .btn-mobile-nav {
+    display: block;
+  }
+}
+
 /* 
 Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
