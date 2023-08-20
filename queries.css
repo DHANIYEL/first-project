@@ -16,9 +16,9 @@
   }
 }
 
-/* ***************** */
+/*******************/
 /* BELOW 1200px (Landscape Tabletes) */
-/* ***************** */
+/*******************/
 
 @media (max-width: 75em) {
   /* this is why rem is used  */
@@ -46,6 +46,33 @@
   }
   .testiminial-container {
     padding: 9.6rem 3.2rem;
+  }
+}
+
+/*******************/
+/* BELOW 944px ( Tabletes) */
+/*******************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16 (for rem the item) 505 */
+    font-size: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
   }
 }
 
