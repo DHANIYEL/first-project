@@ -114,6 +114,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
     /* disola non is cante make animation */
     /* display: none; */
     /* so we use opacity */
@@ -123,6 +124,17 @@
     pointer-events: none;
     /* 3) hide it from screen readers  */
     visibility: hidden;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
   }
   .main-nav-list {
     flex-direction: column;
