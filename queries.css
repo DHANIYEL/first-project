@@ -113,8 +113,10 @@
     height: 100vh;
     display: flex;
     align-items: center;
+
+    transform: translatex(100%);
     justify-content: center;
-    transition: all 0.5s;
+    transition: all 0.5s ease-in;
     /* disola non is cante make animation */
     /* display: none; */
     /* so we use opacity */
@@ -129,6 +131,7 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    transform: translatex(0);
   }
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
