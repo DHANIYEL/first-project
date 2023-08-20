@@ -74,6 +74,21 @@
     justify-content: center;
     margin-top: 3.2rem;
   }
+  .logos img {
+    height: 2.4rem;
+  }
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .section-testimonial {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
 }
 
 /* 
