@@ -227,7 +227,7 @@ body {
 .grid {
   display: grid;
   column-gap: 6.4rem;
-  align-items: center;
+  /* align-items: center; */
   row-gap: 9.6rem;
 }
 .grid--2-cols {
