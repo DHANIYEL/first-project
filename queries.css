@@ -1,0 +1,9 @@
+/* in media query 1rem = 1em = 16px */
+
+/* BELOW 1344px */
+
+@media (max-widt: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+}
