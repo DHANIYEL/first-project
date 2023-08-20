@@ -105,7 +105,7 @@
     display: block;
   }
   .main-nav {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.94);
     position: absolute;
     top: 0;
     left: 0;
@@ -114,10 +114,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* disola non is cante make animation */
+    /* display: none; */
+    /* so we use opacity */
+    /* 1) hide vishually */
+    opacity: 0;
+    /* 2) make it un accesible */
+    pointer-events: none;
+    /* 3) hide it from screen readers  */
+    visibility: hidden;
   }
   .main-nav-list {
     flex-direction: column;
     gap: 4.8rem;
+  }
+  .main-nav-list a:active,
+  .main-nav-list a {
+    font-size: 3rem;
   }
 }
 
