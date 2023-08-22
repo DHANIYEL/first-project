@@ -201,10 +201,21 @@
   .nav-cols {
     grid-row: 1;
     grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+  .grid {
+    column-gap: 3.2rem;
+    row-gap: 4.8rem;
   }
   /* .step-img-box::before {
     width: 45%;
   } */
+}
+
+/* Mobile screen */
+/* 496px */
+
+@media (max-width: 31em) {
 }
 
 /* 
