@@ -191,9 +191,20 @@
   .section-meals {
     padding: 6.4rem 0;
   }
-  .grid--5-cols {
-    /* grid-template-columns: repeat(3, 1fr); */
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
   }
+  .logo-cols,
+  .address-cols {
+    grid-column: span 3;
+  }
+  .nav-cols {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+  /* .step-img-box::before {
+    width: 45%;
+  } */
 }
 
 /* 
