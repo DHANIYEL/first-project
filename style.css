@@ -263,6 +263,10 @@ thts why we here use this instead we can use space class also
   padding: 0 3.2rem;
   margin: 0 auto;
 }
+/* .marquee-featured {
+  padding: 0 !important ;
+  margin: 0 !important;
+} */
 .grid {
   display: grid;
   column-gap: 6.4rem;
